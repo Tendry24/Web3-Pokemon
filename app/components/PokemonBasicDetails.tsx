@@ -9,7 +9,6 @@ interface PokemonBasicDetailsProps {
  sprites: { front_default: string}
 }
 
-
 const PokemonBasicDetails: React.FC<PokemonBasicDetailsProps> = ({ id ,name, types, weight, height,sprites }) => {
  return (
     <div>
@@ -24,7 +23,6 @@ const PokemonBasicDetails: React.FC<PokemonBasicDetailsProps> = ({ id ,name, typ
       </ul>
       <p>Weight: {weight} kg</p>
       <p>Height: {height} cm</p>
-
     </div>
  );
 };
